@@ -5,6 +5,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-color: rgba(0,0,0,.5);
 }
 
 /* Hide the images by default */
@@ -41,8 +42,8 @@
 
 /* Caption text */
 .text {
-  color: #000080;
-  font-size: 30px;
+  color: #f2f2f2;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
