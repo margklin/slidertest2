@@ -13,8 +13,8 @@
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
-  background: background: linear-gradient(
+  
+  background: linear-gradient(
       rgba(255, 0, 0, 0.45), 
       rgba(255, 0, 0, 0.45)
     );
