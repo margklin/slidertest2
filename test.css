@@ -5,13 +5,19 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
- background: rgba(39,62,84,0.82);
+ background: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    );
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-  background: rgba(39,62,84,0.82);
+  background: background: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    );
 }
 
 /* Next & previous buttons */
