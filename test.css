@@ -5,13 +5,13 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
- background-color: rgba(39,62,84,0.82);
+ background: rgba(39,62,84,0.82);
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-  background-color: rgba(39,62,84,0.82);
+  background: rgba(39,62,84,0.82);
 }
 
 /* Next & previous buttons */
