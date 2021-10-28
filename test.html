@@ -14,10 +14,21 @@
 
 body {font-family: Helvetica, sans-serif; margin:0}
 
-.mySlides {background: linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
-    );}
+.mySlides {
+      display: hidden;
+      position: relative;
+    );
+      }
+.mySlides:after {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	background-color: rgba(255,0,0,.5);
+  	top: 0;
+  	left: 0;
+  	display: block;
+  	content: "";
+}
 
 img {vertical-align: middle;}
 
@@ -32,11 +43,6 @@ max-width: 1000px;
 position: relative;
 
 margin: auto;
-
-background: linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
-    );
 
 }
 
