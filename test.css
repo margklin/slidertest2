@@ -5,9 +5,6 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
- background: linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
     );
 }
 
@@ -20,7 +17,7 @@
   	position: absolute;
   	height: 100%;
   	width: 100%;
-  	background-color: rgba(255,0,0,.5);
+  	background-color: rgba(58, 83, 155, 1);
   	top: 0;
   	left: 0;
   	display: block;
