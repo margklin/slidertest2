@@ -64,7 +64,7 @@
   
 }
 
-.text:after {
+.text:before {
   	position: absolute;
   	height: 50%;
   	width: 100%;
